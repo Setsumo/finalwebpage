@@ -1,4 +1,4 @@
-/* General Reset */
+
 body, h1, h2, h3, p, ul, ol, li, table, th, td {
     margin: 0;
     padding: 0;
@@ -12,7 +12,7 @@ body {
     line-height: 1.6;
 }
 
-/* Navigation Bar */
+
 header {
     background-color: #202020;
     padding: 10px 0;
@@ -51,7 +51,7 @@ nav ul li a:hover {
     border-radius: 4px;
 }
 
-/* Hero Section */
+
 .hero {
     text-align: center;
     padding: 50px;
@@ -68,14 +68,14 @@ nav ul li a:hover {
     font-size: 1.2em;
 }
 
-/* General Content */
+
 main {
     padding: 20px;
     max-width: 1200px;
     margin: 0 auto;
 }
 
-/* Featured Section */
+
 .featured {
     text-align: center;
     margin: 40px 0;
@@ -174,7 +174,7 @@ ul li a:hover {
     color: #e03e3e; /* Darker red hover */
 }
 
-/* Footer */
+
 footer {
     text-align: center;
     padding: 10px 0;
@@ -187,7 +187,7 @@ footer p {
     color: #ccc;
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
     .hero h1 {
         font-size: 2em;
