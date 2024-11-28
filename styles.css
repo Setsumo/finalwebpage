@@ -1,0 +1,209 @@
+/* General Reset */
+body, h1, h2, h3, p, ul, ol, li, table, th, td {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #181818;
+    color: #fff;
+    line-height: 1.6;
+}
+
+/* Navigation Bar */
+header {
+    background-color: #202020;
+    padding: 10px 0;
+    position: relative; /* Allows positioning child elements like the logo */
+}
+
+header .logo {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 50px; /* Adjust size as needed */
+    height: auto;
+    z-index: 100;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #181818;
+    background-color: #ff4c4c; /* Red hover effect */
+    border-radius: 4px;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 50px;
+    background: linear-gradient(135deg, #ff4c4c, #121212); /* Red gradient */
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+/* General Content */
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Featured Section */
+.featured {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.featured .cta-button {
+    display: inline-block;
+    background-color: #ff4c4c; /* Red button */
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+.featured .cta-button:hover {
+    background-color: #e03e3e; /* Darker red hover */
+}
+
+/* Top 10 Page */
+#top10 {
+    background-color: #202020;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#top10 ol {
+    list-style: decimal;
+    padding-left: 20px;
+    color: #fff; /* Ensures numbers are white */
+}
+
+#top10 li {
+    margin-bottom: 20px;
+    color: #fff; /* Ensures list items text is white */
+}
+
+#top10 h2 {
+    font-size: 1.5em;
+    color: #ff4c4c; /* Red */
+}
+
+#top10 p {
+    font-size: 1em;
+    color: #ccc;
+}
+
+/* Table (Trends Page) */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #202020;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+table thead {
+    background-color: #ff4c4c; /* Red header */
+}
+
+table th, table td {
+    color: #fff; /* Ensures text is white */
+    padding: 10px;
+    text-align: left;
+}
+
+table tr:nth-child(even) {
+    background-color: #2a2a2a;
+}
+
+table tr:hover {
+    background-color: #ff4c4c; /* Red hover */
+    color: #181818;
+}
+
+/* Contact Section (About Page) */
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li a {
+    color: #ff4c4c; /* Red links */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+ul li a:hover {
+    color: #e03e3e; /* Darker red hover */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #202020;
+    margin-top: 20px;
+    position: relative;
+}
+
+footer p {
+    color: #ccc;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2em;
+    }
+
+    .hero p {
+        font-size: 1em;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+}
+
